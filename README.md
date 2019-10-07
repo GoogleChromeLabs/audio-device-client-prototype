@@ -1,12 +1,10 @@
 # Prototype: Audio Device Client 
 
 This is a proof-of-concept JS library of Audio Device Client built on top of 
-[Audio Worklet](https://developers.google.com/web/updates/2017/12/audio-worklet)
-, [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)
-, and [Worker](https://developer.mozilla.org/en-US/docs/Web/API/Worker). For
-more information on Audio Device Client, visit
-[the project repository](https://github.com/WebAudio/web-audio-cg/tree/master/audio-device-client).
-Note that this API is currently under active development.
+[Audio Worklet](https://developers.google.com/web/updates/2017/12/audio-worklet), [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer), and [Worker](https://developer.mozilla.org/en-US/docs/Web/API/Worker).
+
+For more information on Audio Device Client, visit
+[the project repository](https://github.com/WebAudio/web-audio-cg/tree/master/audio-device-client). Note that this API is currently under active development.
 
 Before using this library, be sure to check if your browser supports Audio
 Worklet. ([MDN browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/AudioWorklet#Browser_compatibility))
