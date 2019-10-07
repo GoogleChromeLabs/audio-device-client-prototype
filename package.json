@@ -1,0 +1,57 @@
+{
+  "name": "audio-device-client-proto",
+  "version": "0.0.7",
+  "description": "AudioDeviceClient prototype built with Audio Worklet, Worker and SharedArrayBuffer",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test",
+    "lint": "eslint src/**/*.js example/*.js"
+  },
+  "keywords": [
+    "fifo",
+    "audio",
+    "ringbuffer",
+    "sharedarraybuffer",
+    "audioworklet",
+    "audiodeviceclient",
+    "fugu"
+  ],
+  "author": "Hongchan Choi",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0",
+    "gulp": "^4.0.2",
+    "gulp-footer": "^2.0.2",
+    "gulp-header": "^2.0.9",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify-es": "^1.0.4",
+    "merge-stream": "^2.0.0",
+    "mocha": "^6.1.4"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "google"
+    ],
+    "rules": {
+      "require-jsdoc": [
+        "off"
+      ],
+      "no-unused-vars": [
+        "off"
+      ]
+    },
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2017
+    }
+  }
+}
